@@ -1,0 +1,28 @@
+# Python
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Environment
+.env
+
+# Raw Kaggle dataset (large files — download locally)
+data/raw/*.csv
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/secrets.toml
+debug_open_images.py
+debug_poster_check.py
+debug_recs.py
+debug_requests_batch.py
+debug_requests.py
+debug_try_alternatives.py
