@@ -11,7 +11,6 @@ __pycache__/
 
 # Raw Kaggle dataset (large files — download locally)
 data/raw/*.csv
-data/movies.csv
 # IDE / OS
 .vscode/
 .idea/
